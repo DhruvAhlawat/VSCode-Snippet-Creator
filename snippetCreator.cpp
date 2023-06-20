@@ -18,7 +18,7 @@ int main()
         
         //uncomment this section to add tabspaces as \t commands instead of spaces in the strings
         #pragma region tabSpaces-as-command
-        /*
+        
         while(tabspaces < current.size() && current[tabspaces] == ' ')
         {
             tabspaces++;
@@ -37,7 +37,7 @@ int main()
         {
             current = "\\t" + current;
         } 
-        */
+        
         #pragma endregion
         
         current = "\"" + current + "\",";
